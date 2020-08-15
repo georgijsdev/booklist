@@ -1,0 +1,26 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .container #book-form {
+    width: 30vw; }
+    .container #book-form div {
+      display: flex;
+      width: 100%; }
+      .container #book-form div label {
+        flex: 0.2; }
+      .container #book-form div input {
+        flex: 0.8; }
+
+.success, .error {
+  color: #fff;
+  padding: 5px;
+  margin: 5px 0 15px 0; }
+
+.success {
+  background: #438a5e; }
+
+.error {
+  background: #d32626; }
